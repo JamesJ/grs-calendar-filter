@@ -1,0 +1,15 @@
+{
+  "name": "calendar-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ical-generator": "^3.0.0",
+    "node-ical": "^0.13.0"
+  }
+}
