@@ -8,9 +8,6 @@ http.createServer((req, res) => {
     const val = query.url;
 
     nodeIcal.fromURL(val, {}, function (err, data) {
-        console.log("err= " + err);
-        console.log("data=" + data);
-
         const calendar = ical({name: 'GRS Calendar'});
         for (let dataKey in data) {
             if (!data.hasOwnProperty(dataKey)) {
